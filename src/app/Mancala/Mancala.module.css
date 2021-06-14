@@ -1,0 +1,18 @@
+.mancala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mancala td {
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.current {
+    background-color: pink;
+}
